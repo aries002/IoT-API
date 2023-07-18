@@ -1,0 +1,20 @@
+{
+    "name": "aap/iot-engine",
+    "description": "an Open IoT engine",
+    "type": "project",
+    "require": {
+        "influxdata/influxdb-client-php": "^3.3",
+        "codeigniter/framework": "^3.1",
+        "chriskacerguis/codeigniter-restserver": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "AAP"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

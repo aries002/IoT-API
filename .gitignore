@@ -16,3 +16,9 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+/vendor/
+/.htaccess
+/application/config/database.php
+/*.code-workspace
+*test*
